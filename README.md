@@ -73,6 +73,28 @@ Después de añadirlo necesitamos configurarlo para que de el rango de IPs que n
 
 ![imagen](./img/RANGO.PNG)
 
+Una vez configurado ya está listo para que reparta IPs a los equipos de la red.
+
+## Comprobaciones
+### Conexión
+Lo que necesitamos hacer es cambiar el nombre del equipo a uno que tengamos en el servidor creado. Una vez tengamos eso tenemos que cambiar el grupo de trabajo por el dominio de nuestro servidor. Una vez hecho eso nos pedirá la contraseña del administrador del sistema del servidor y ya se tendra acceso con los usuarios utilizados después de reiniciar el equipo.
+
+![imagen](./img/NOMBREWIN7.PNG)
+![imagen](./img/DOMINIO.PNG)
+
+Una vez que hemos establecido la conexión vamos a intentar conectarnoS. Para ello necesitamos hacerlo por primera vez con el usuario Administrador:
+
+![imagen](./img/ADMINLOGIN.PNG)
+![imagen](./img/ADMINLOGEADO.PNG)
+
+Después de esto, comprobaremos a acceder con un usuario, el cual no pueda acceder por la restricción horaria:
+
+![imagen](./img/ERROR_HORARIO.PNG)
+
+### DHCP
+La comprobación la hacemos desde un cliente en la misma red física y cofigurándolo como DHCP y comprobar que tiene una IP dentro de nuestro rango, y que ha asignado bien el servidor DNS y la puerta de enlace.
+
+![imagen](./img/dhcpcom.PNG)
 
 
-
+# RAFAEL SALMERÓN MARTOS
