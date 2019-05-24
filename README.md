@@ -1,4 +1,4 @@
-# WindowsServer
+# Windows Server
 ## Organización de la empresa
 La empresa está organizada en tres departamentos los cuales son: Dirección, Almacén y Marketing. Cada departamento tiene un equipo y dos empleados que solo podrán entrar al equipo que está en su departamento.
 
