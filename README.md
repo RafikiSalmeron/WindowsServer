@@ -29,3 +29,50 @@ Lo primero que tenemos que configurar es la implementación que en nuestro caso 
 
 ![imagen](./img/CREARBOSQUE.PNG)
 ![imagen](./img/AD%20INICIADO.PNG)
+
+## Creación de las Unidades Organizativas de la Empresa
+Nuestra empresa tiene tres departamentos en los que hay un equipo y dos empleados en cada uno. Lo primero que tenemos que hacer es crear la unidad organizativa para cada departamento, para ello hacemos clic en herramientas y nos vamos a la gestión de Active Directory. Desde ahí hacemos clic derecho sobre servidor(local) y seleccionamos crear una nueva unidad organizativa a la que le daremos el nombre deseado.
+
+![imagen](./img/CREARUO1.PNG)
+![imagen](./img/CREARUO2.PNG)
+
+Una vez la tenemos creada accedemos a ella con un doble clic y dentro de ella creamos los correspondientes Equipos y Usuarios realizando los mismos pasos: Botón derecho > Nuevo > Equipo|Usuario.
+
+![imagen](./img/CREARUSUARIO.PNG)
+![imagen](./img/CREAREQUIPO.PNG)
+
+Una vez creado todo, nos debería quedar algo así:
+
+![imagen](./img/rs.PNG)
+
+Ahora lo que tenemos que hacer es configurar los usuario. Para ello pondremos que los usuarios solo puedan entrar al equipo del departamento al que pertenecen.
+
+![imagen](./img/RESTREQUIPO.PNG)
+
+Ahora vamos a limitar las horas en las que los usuario pueden iniciar sesión en el sistema.
+
+![imagen](./img/RESHORAS.PNG)
+
+## Impresora
+Por último tenemos que agregar la impresora y para ello tenemos que agregar el rol al servidor.
+
+![imagen](./img/impresora.PNG)
+
+Una vez instalado tenemos que configurarla y añadir la impresora.
+
+![imagen](./img/impresora2.PNG)
+![imagen](./img/impresora3.PNG)
+
+## DHCP
+Lo siguiente que vamos a hacer es agregar un nuevo rol a nuestro servidor de DHCP. Esto lo hacemos de la misma forma en la que hemos añadido el Active Directory.
+
+![imagen](./img/SERVERDHCPINS.PNG)
+![imagen](./img/SERVERDHCPINS2.PNG)
+
+Después de añadirlo necesitamos configurarlo para que de el rango de IPs que nosotros queramos, y agregar a la resolución DNS la IP del Servidor. Para ello lo que tenemos que hacer es agregar un nuevo ámbito.
+
+![imagen](./img/RANGO.PNG)
+
+
+
+
