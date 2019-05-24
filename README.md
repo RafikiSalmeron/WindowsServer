@@ -18,3 +18,7 @@ Antes de hacer nada en el servidor tenemos que hacer unas configuraciones básic
 Para que nuestro equipo empiece a funcionar como servidor necesitamos un servicio. Los servicioes se agregan desde el enlace Administrar > Agregar Roles. Desde ahí siguiendo los pasos instalaremos el rol de Active Directory.
 
 ![imagen](./img/SELECCIONARAD.PNG)
+
+Una vez lo tenemos seleccionado solo tenemos que darle a siguiente hasta que nos de la opción de instalar.
+
+![imagen](./img/ADINSTALADO.PNG)
