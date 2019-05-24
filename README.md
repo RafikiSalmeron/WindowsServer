@@ -22,3 +22,10 @@ Para que nuestro equipo empiece a funcionar como servidor necesitamos un servici
 Una vez lo tenemos seleccionado solo tenemos que darle a siguiente hasta que nos de la opción de instalar.
 
 ![imagen](./img/ADINSTALADO.PNG)
+
+Una vez se haya instalado nos aparecerá un mensaje en el que nos dirá que el rol ya ha sido instalado, pero eso no es todo, Ahora tendremos que configurarlo promoviendolo como controlador de dominio.
+
+Lo primero que tenemos que configurar es la implementación que en nuestro caso escogeremos un nuebo bosque y además le daremos un nuevo nombre de dominio a nuestro servidor. Aquí nos pedirá el nombre del nuevo dominio, y la contraseña del Administrador del mismo. Una vex promovido, se reiniciará el sistema, ya conectado dentro del nuevo dominio.
+
+![imagen](./img/CREARBOSQUE.PNG)
+![imagen](./img/AD INICIADO.PNG)
